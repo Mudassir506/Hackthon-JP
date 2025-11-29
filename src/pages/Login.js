@@ -119,7 +119,7 @@ function Login() {
               <input type="checkbox" />
               <span>Remember me</span>
             </label>
-            <a href="#" className="forgot-password">Forgot password?</a>
+            <button type="button" className="forgot-password">Forgot password?</button>
           </div>
           
           <button type="submit" className="login-button" disabled={loading}>
